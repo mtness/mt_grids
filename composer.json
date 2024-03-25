@@ -7,6 +7,9 @@
   "support": {
     "issues": "https://github.com/h1/mt_grids/issues"
   },
+  "require": {
+    "gridelementsteam/gridelements": "^11"
+  },
   "autoload": {
     "psr-4": {
       "MarkusTimtner\\MtGrids\\": "Classes"

@@ -8,7 +8,7 @@ lib.gridelements.defaultGridSetup.columns.2 >
 /** ------------------------------------------------
  * Grid definitions
  */
-lib.bootstrap_grids {
+lib.mt_grids {
 
     # Column grids
     2cols < lib.gridelements.defaultGridSetup
@@ -324,15 +324,15 @@ lib.bootstrap_grids {
 * Assign grid rendering to layout ids (names)
 */
 tt_content.gridelements_pi1.20.10.setup {
-    2cols < lib.bootstrap_grids.2cols
-    3cols < lib.bootstrap_grids.3cols
-    4cols < lib.bootstrap_grids.4cols
-    accordion < lib.bootstrap_grids.accordion
-    slider < lib.bootstrap_grids.slider
-    tabsSimple < lib.bootstrap_grids.simpleTabs
-    tabs4 < lib.bootstrap_grids.4tabs
-    tabs6 < lib.bootstrap_grids.6tabs
-    xSimpleRow < lib.bootstrap_grids.simpleRow
+    2cols < lib.mt_grids.2cols
+    3cols < lib.mt_grids.3cols
+    4cols < lib.mt_grids.4cols
+    accordion < lib.mt_grids.accordion
+    slider < lib.mt_grids.slider
+    tabsSimple < lib.mt_grids.simpleTabs
+    tabs4 < lib.mt_grids.4tabs
+    tabs6 < lib.mt_grids.6tabs
+    xSimpleRow < lib.mt_grids.simpleRow
 }
 
 
@@ -340,6 +340,6 @@ tt_content.gridelements_pi1.20.10.setup {
  * CSS and JS for flexslider (content slider grid)
  */
 page {
-    includeCSS.flexslider2 = EXT:bootstrap_grids/Resources/Public/Flexslider2/flexslider.css
-    includeJSFooterlibs.flexslider2 = EXT:bootstrap_grids/Resources/Public/Flexslider2/jquery.flexslider-min.js
+    includeCSS.flexslider2 = EXT:mt_grids/Resources/Public/Flexslider2/flexslider.css
+    includeJSFooterlibs.flexslider2 = EXT:mt_grids/Resources/Public/Flexslider2/jquery.flexslider-min.js
 }

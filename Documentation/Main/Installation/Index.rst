@@ -10,7 +10,7 @@
 Installation
 ============
 
-1. Install the extension bootstrap_grids. If ext:gridelements is not installed, it will be installed automatically.
+1. Install the extension mt_grids. If ext:gridelements is not installed, it will be installed automatically.
 
 2. Include the static templates as shown in the screenshot. Keep in mind that the order of templates is important.
 

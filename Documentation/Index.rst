@@ -15,7 +15,7 @@ Grids for bootstrap
 :Rendered: |today|
 
 
-|img-1| |img-2| Grids for Bootstrap
+|img-1| |img-2| Grids for Mt
 
 
 .. toctree::

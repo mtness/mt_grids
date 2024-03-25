@@ -9,7 +9,7 @@
 Grids for bootstrap
 ===================
 
-:Extension Key: bootstrap_grids
+:Extension Key: mt_grids
 :Language: en
 :Keywords: forEditors, forAdmins, forDevelopers
 

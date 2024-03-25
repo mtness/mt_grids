@@ -1,21 +1,20 @@
 {
-  "name": "laxap/bootstrap-grids",
+  "name": "markustimtner/mt-grids",
   "type": "typo3-cms-extension",
-  "description": "Gridelements for bootstrap. Column grids, grids for simple accordions, tabs and content slider.",
-  "homepage": "http://www.bsdist.ch",
+  "description": "Predefined gridelements. Columns, accordions, tabs and slider",
   "license": "GPL-2.0",
-  "keywords": ["typo3", "TYPO3 CMS", "bootstrap", "bsdist", "gridelements"],
+  "keywords": ["typo3", "TYPO3 CMS", "gridelements"],
   "support": {
-    "issues": "https://github.com/laxap/bootstrap_grids/issues"
-  },
-  "require": {
-    "php": ">=5.5.0",
-    "typo3/cms": "^7.6 || ^8.7",
-    "gridelementsteam/gridelements" : "dev-master"
+    "issues": "https://github.com/h1/mt_grids/issues"
   },
   "autoload": {
     "psr-4": {
-      "Laxap\\BootstrapGrids\\": "Classes"
+      "MarkusTimtner\\MtGrids\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "mt_grids"
     }
   }
 }

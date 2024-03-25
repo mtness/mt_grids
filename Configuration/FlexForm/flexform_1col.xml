@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <rowclass type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </rowclass>
+                    <wrapSection type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:container.wrapSection</label>
+                            <config type="array">
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </wrapSection>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,12 @@
+<div id="c{data.uid}" class="ui styled accordion">
+	<f:for each="{data.tx_gridelements_view_children}" as="item" iteration="i">
+	<div class="item">
+		<div class="title">
+			<i class="dropdown icon"></i> {item.header}
+		</div>
+		<div class="content">
+			<f:cObject typoscriptObjectPath="lib.tx_mask.content">{item.uid}</f:cObject>
+		</div>
+	</div>
+	</f:for>
+</div>

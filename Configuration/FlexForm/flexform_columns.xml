@@ -17,20 +17,10 @@
                             <config type="array">
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>
-                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getTwoColumnOptions</itemsProcFunc>
+                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getResponsiveColumnOptions</itemsProcFunc>
                             </config>
                         </TCEforms>
                     </mdCol1>
-                    <mdCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
-                    </mdCol2>
                 </el>
             </ROOT>
         </sDEF>
@@ -51,16 +41,6 @@
                             </config>
                         </TCEforms>
                     </smCol1>
-                    <smCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
-                    </smCol2>
                 </el>
             </ROOT>
         </smallDevices>
@@ -81,16 +61,6 @@
                             </config>
                         </TCEforms>
                     </xsCol1>
-                    <xsCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
-                    </xsCol2>
                 </el>
             </ROOT>
         </extraSmallDevices>
@@ -111,46 +81,8 @@
                             </config>
                         </TCEforms>
                     </lgCol1>
-                    <lgCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>MarkusTimtner\MtGrids\Controller\FlexFormController->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
-                    </lgCol2>
                 </el>
             </ROOT>
         </largeDevices>
-        <customClasses>
-            <ROOT>
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</sheetTitle>
-                </TCEforms>
-                <type>array</type>
-                <el type="array">
-                    <col21class type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>input</type>
-                                <eval>trim</eval>
-                            </config>
-                        </TCEforms>
-                    </col21class>
-                    <col22class type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:mt_grids/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>input</type>
-                                <eval>trim</eval>
-                            </config>
-                        </TCEforms>
-                    </col22class>
-                </el>
-            </ROOT>
-        </customClasses>
     </sheets>
 </T3DataStructure>

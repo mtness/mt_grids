@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="messages" date="2015-02-07T00:02:05Z" product-name="bootstrap_grids">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-02-07T00:02:05Z" product-name="mt_grids">
         <header/>
         <body>
+	        <trans-unit id="container.wrapSection" xml:space="preserve" approved="yes">
+				<source>2 columns</source><target state="translated">wrap with .center</target>
+			</trans-unit>
             <trans-unit id="2cols.title" xml:space="preserve">
 				<source>2 columns</source>
 			</trans-unit>
@@ -122,6 +125,9 @@
 			</trans-unit>
             <trans-unit id="grid.sheet.customClasses" xml:space="preserve">
 				<source>Custom classes</source>
+			</trans-unit>
+            <trans-unit id="container.wrapSection" xml:space="preserve">
+				<source>Wrap section with .center</source>
 			</trans-unit>
             <trans-unit id="grid.label.col1" xml:space="preserve">
 				<source>Column 1</source>

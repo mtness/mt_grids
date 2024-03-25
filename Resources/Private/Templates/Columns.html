@@ -1,0 +1,7 @@
+<div id="c{data.uid}" class="row">
+	<f:for each="{data.tx_gridelements_view_children}" as="content">
+		<div class="{data.flexform_xsCol1} {data.flexform_smCol1} {data.flexform_mdCol1} {data.flexform_lgCol1} {data.flexform_col31class}">
+			<f:format.raw>{data.tx_gridelements_view_child_{content.uid}}</f:format.raw>
+		</div>
+	</f:for>
+</div>

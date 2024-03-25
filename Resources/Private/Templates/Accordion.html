@@ -1,0 +1,18 @@
+<div id="c{data.uid}" class="my ui styled accordion">
+	<f:for each="{data.tx_gridelements_view_children}" as="data_item" iteration="i">
+	<div class="item">
+		<div class="title" onclick="event.preventDefault();
+				let myAcc = document.querySelectorAll('.accordion .item .title');
+				for (let i = 0; i < myAcc.length; i++) myAcc[i].classList.remove('active');
+				event.currentTarget.classList.add('active')">
+			<i class="dropdown icon"></i>
+			<a href="#tab-{data_item.uid}" class="tab" role="tab" data-toggle="tab">
+				{data_item.header}
+			</a>
+		</div>
+		<div class="content">
+			<f:cObject typoscriptObjectPath="lib.tx_mask.content">{data_item.uid}</f:cObject>
+		</div>
+	</div>
+	</f:for>
+</div>
